@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+div.datos-receta {
+  float: right;
+  background-color: rgb(255, 255, 219);
+  width:25%;
+}
+.header {
+  background-color: #16ccec00;
+  padding: 20px;
+  text-align: center;
+}
+.topnav {
+  float: left;
+  display: block;
+  color: #f2f2f200;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family:'Courier New', Courier, monospace;
+  
+}
+.topnav a:hover {
+  background-color: rgba(221, 221, 221, 0);
+  color: rgba(255, 255, 255, 0);
+}
+table{
+  background-color: rgb(255, 255, 219);
+  border: 1px solid;
+}
+
+  
+
+h1{
+  color:  rgb(138, 118, 15);
+  }
+h2{
+  color: rgb(179, 49, 16);
+  }
+  h3{
+   color: rgb(77, 201, 43);
+  }
+div.footer {
+position: -webkit-sticky;
+  position: sticky;
+  bottom: 0;
+  padding: 5px;
+  background-color: #cae8ca;
+  border: 2px solid #4CAF50;
+}
+div.pasos{
+  float: right;
+  width: 75%;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+}
+  </style>
+</head>
+<body>
+<div class="header">
+  <h1>Recetas de cocina de Edu</h1>
+</div>
+<div class="topnav">
+  <a href="Recipe #1.Macarrones">Macarrones</a>
+  <a href="Recipe#2.Fideos">Fideos</a>
+</div>
+<div class="datos-receta">
+ <h3>Receta 1. Macarrones</h3>
+  <ul>
+            <li>Time:45min</li>
+            <li>Serves:plato llano</li>
+        </ul>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Ingredients</th>
+                    <th>Quantity</th>
+                </tr>
+            </thead>
+            <tbody> <tr>
+                    <td>Macarrones</td>
+                    <td>350g</td>
+                </tr>
+                <tr>
+                    <td>Chorizo</td>
+                    <td>100g</td>
+                </tr>
+                <tr>
+                    <td>Salsa de tomate</td>
+                    <td>200g</td>
+                </tr>
+            </tbody>
+        </table>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Macarrones_con_carne.jpg/220px-Macarrones_con_carne.jpg" width="190">
+        
+        <h3>Receta 2. Fideos</h3>
+
+        <ul>
+            <li>Time:3 h 35 m</li>
+            <li>Serves:plato ondo</li>
+        </ul>
+        <table>
+            <thead>
+                <tr>
+                    <th>Ingredients</th>
+                    <th>Quantity</th>
+                </tr>
+            </thead>
+            <tbody> <tr>
+                    <td>Fideos</td>
+                    <td>350g</td>
+                </tr>
+                <tr>
+                    <td>Morcillo</td>
+                    <td>100g</td>
+                </tr>
+                <tr>
+                    <td>Traseras de gallina</td>
+                    <td>2 ud</td>
+                </tr>
+            </tbody>
+        </table>
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Cooked_spaghetti_%28horizontal%29.jpg/139px-Cooked_spaghetti_%28horizontal%29.jpg" width="180">
+       
+</div>
+<div class="pasos">
+<div class="pasos-macarrones">
+<h2>Libro de recetas</h2>
+
+<p><img src="https://cdn.kastatic.org/third_party/javascript-khansrc/live-editor/build/images/food/croissant.png" style="width:170px;height:170px;margin-left:15px;">
+<h3 id="Recipe #1.Macarrones">Macarrones</h3>
+<p><strong>Paso 1:</strong> Cortar chorizo. Para preparar estos macarrones con chorizo, retira la piel del embutido y córtalo en daditos.
+</p><p><strong>Paso 2:</strong> Prepara el pimiento.
+
+Luego, lava el pimiento, retira el tallo, las semillas y las nervaduras blancas del interior. Córtalo en cuadraditos similares de tamaño.</p><p><strong>Paso 3:</strong> Precalienta el horno.
+
+Precalienta el horno a 200° y elige una fuente refractaria honda para que quepa bien el líquido.</p>
+<p><strong>Paso 4:</strong> Llena la fuente.
+
+En esta receta de macarrones, estos se colocan en crudo, en la fuente y por encima se añade el jamón, el chorizo y el pimiento cortados.</p>
+
+   <p><strong>Paso 5:</strong>  Añade el tomate.
+
+Vierte la salsa de tomate casera, espolvorea con orégano, salpimienta y mezcla bien. </p>
+<p><strong>Paso 6:</strong>  Vierte agua y hornea.
+
+A la bandeja se vierten 400 ml de agua hirviendo, se tapa la fuente con papel sulfurizado y se deja hornear durante unos 35 minutos.</p>
+<p><strong>Paso 7:</strong> Retira del horno.
+
+Una vez la receta de macarrones está lista, retira la fuente del horno, remueve bien los macarrones y rectifica de sal si es necesario.</p>
+<p><strong>Paso 8:</strong> Gratina con mozzarella
+
+Coloca encima la mozzarella cortada en lonchas finas y gratínalo bajo el grill del horno hasta que el queso se funda y la superficie se dore ligeramente. Sirve enseguida.</p>
+</div>
+<div class="pasos-fideos">
+<h3 id="Recipe#2.Fideos">Fideos</h3>
+<p><strong>Paso 1:</strong> Hervir los ingredientes. Ponemos todos los ingredientes en una olla con agua fría a hervir y vamos desespumando cada 10 o 15 minutos.
+</p><p><strong>Paso 2:</strong>La cocción.
+
+Cocemos todo junto durante unas tres horas a fuego suave o 45 min en olla express y ponemos al final a punto de sal si fuera necesario.</p><p><strong>Paso 3:</strong> Incluimos carne al plato.
+
+Colamos y reservamos las carnes para una ropa vieja o unas croquetas y hervimos de nuevo litro y medio de caldo y echamos los fideos sin parar de mover para que no se peguen.</p>
+<p><strong>Paso 4:</strong> Servimos los fideos.
+Cocemos tres o cuatro minutos, según el fabricante, y servimos la sopa de fideos muy caliente, acompañada si queremos de la carne picada en daditos.</p>
+</div><div class="footer">
+  <h2>Footer</h2>
+  <p>Estas recetas son de mi tatara tatara tatara abuela, la cual se la dió a la reina Isabel segunda
+    de  España, después convirtió a mi abuela en noble nombrandola con el titulo del marquesado De Cubas.
+  </p>
+  <a href="https://www.recetasderechupete.com/">más recetas aquí</a>
+</div>
+</div>
+
+
+</body>
+</html>
